@@ -1,0 +1,283 @@
+/*
+////////////////////////////////////////
+///Colors and other small details
+////////////////////////////////////////
+*/
+
+/*
+ /$$$$$$        /$$       /$$                              
+/$$__  $$      | $$      | $$                              
+| $$  \ $$  /$$$$$$$  /$$$$$$$  /$$$$$$  /$$$$$$$   /$$$$$$$
+| $$$$$$$$ /$$__  $$ /$$__  $$ /$$__  $$| $$__  $$ /$$_____/
+| $$__  $$| $$  | $$| $$  | $$| $$  \ $$| $$  \ $$|  $$$$$$ 
+| $$  | $$| $$  | $$| $$  | $$| $$  | $$| $$  | $$ \____  $$
+| $$  | $$|  $$$$$$$|  $$$$$$$|  $$$$$$/| $$  | $$ /$$$$$$$/
+|__/  |__/ \_______/ \_______/ \______/ |__/  |__/|_______/ 
+*/
+
+/* Uncomment the `@use` to enable Radial Status */
+//@use 'fixations/additions/radialstatus.css';
+
+/* Uncomment the `@import url` to enable Apple Emojis */
+/* MWITTRIEN - EMOJIREPLACE - LICENCE https://github.com/mwittrien/BetterDiscordAddons/blob/master/LICENSE */
+//@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
+
+/*
+ /$$      /$$                 /$$           /$$                    
+| $$$    /$$$                | $$          | $$                    
+| $$$$  /$$$$  /$$$$$$   /$$$$$$$ /$$   /$$| $$  /$$$$$$   /$$$$$$$
+| $$ $$/$$ $$ /$$__  $$ /$$__  $$| $$  | $$| $$ /$$__  $$ /$$_____/
+| $$  $$$| $$| $$  \ $$| $$  | $$| $$  | $$| $$| $$$$$$$$|  $$$$$$ 
+| $$\  $ | $$| $$  | $$| $$  | $$| $$  | $$| $$| $$_____/ \____  $$
+| $$ \/  | $$|  $$$$$$/|  $$$$$$$|  $$$$$$/| $$|  $$$$$$$ /$$$$$$$/
+|__/     |__/ \______/  \_______/ \______/ |__/ \_______/|_______/ 
+*/
+
+/* LUCKFIRE - macOS Title Bar - LICENSE https://github.com/discord-extensions/macos-titlebar/blob/master/LICENSE */
+.platform-win .typeWindows__5fa63 {
+  z-index: 102;
+  position: absolute;
+  flex-direction: row;
+  align-items: center;
+  top: 1px;
+  width: 100%;
+  margin: 0;
+  padding-top: 12px;
+  padding-right: 9px;
+  padding-left: 3px;
+  -webkit-app-region: drag;
+}
+.platform-win .typeWindows__5fa63 .wordmark__0d178 {
+  top: 11px;
+  left: 11px;
+  width: 52px;
+  height: 12px;
+  padding: 0;
+  -webkit-app-region: no-drag;
+}
+.platform-win .typeWindows__5fa63 .wordmark__0d178 g {
+  display: none;
+}
+.platform-win .typeWindows__5fa63 .winButton__88672 {
+  width: 12px;
+  height: 12px;
+  margin-left: 8px;
+  border-radius: 15px;
+  background-color: var(--background-primary);
+  background-size: 0;
+  -webkit-app-region: no-drag;
+}
+.platform-win .typeWindows__5fa63 .winButton__88672 svg {
+  display: none;
+}
+.platform-win.app-focused .typeWindows__5fa63:hover div.winButton__88672 {
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.platform-win.app-focused .typeWindows__5fa63 .winButtonClose__73489 {
+  background-color: #ff5c57;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTUuMjkyODkgNkwyLjgxODAxIDMuNTI1MTNMMy41MjUxMiAyLjgxODAyTDUuOTk5OTkgNS4yOTI4OUw4LjQ3NDg3IDIuODE4MDJMOS4xODE5NyAzLjUyNTEzTDYuNzA3MSA2TDkuMTgxOTcgOC40NzQ4N0w4LjQ3NDg3IDkuMTgxOThMNS45OTk5OSA2LjcwNzExTDMuNTI1MTIgOS4xODE5OEwyLjgxODAxIDguNDc0ODdMNS4yOTI4OSA2WiIgZmlsbD0iI0EyMDAwOCIvPgo8L3N2Zz4=);
+}
+.platform-win.app-focused .typeWindows__5fa63 .winButtonMinMax__72f36:nth-child(2n) {
+  background-color: #fdbd3d;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwIDUuMzk5OTlIMlY2LjU5OTk5SDEwVjUuMzk5OTlaIiBmaWxsPSIjQjM3MTFBIi8+Cjwvc3ZnPg==);
+}
+.platform-win.app-focused .typeWindows__5fa63 .winButtonMinMax__72f36:nth-child(3n) {
+  order: 3;
+  background-color: #26c84b;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcuMzkyOTMgMy4wMDg5M0wzLjAwODg3IDcuMzkyOTlMMi44MTc5NSAyLjgxODAxTDcuMzkyOTMgMy4wMDg5M1oiIGZpbGw9IiMwMjZBMTUiLz4KPHBhdGggZD0iTTQuNjA2OTUgOC45OTEwMUw4Ljk5MTAxIDQuNjA2OTVMOS4xODE5MyA5LjE4MTkzTDQuNjA2OTUgOC45OTEwMVogIiBmaWxsPSIjMDI2QTE1Ii8+Cjwvc3ZnPg==);
+}
+
+.guilds__2b93a {
+  margin-top: 29px;
+}
+
+.notice__5fd4c {
+  z-index: 104;
+  -webkit-app-region: no-drag;
+}
+
+.platform-win .sidebar_ded4b5 {
+  border-radius: 0;
+}
+.platform-win .sidebar_ded4b5 .header__104ca, .platform-win .sidebar_ded4b5 .searchBar_e4ea2a {
+  z-index: 103;
+}
+.platform-win .sidebar_ded4b5 .header__104ca, .platform-win .sidebar_ded4b5 .searchBarComponent__22760 {
+  -webkit-app-region: no-drag;
+}
+.platform-win .sidebar_ded4b5 .searchBar_e4ea2a {
+  -webkit-app-region: drag;
+}
+
+.chat__52833 {
+  z-index: 103;
+}
+.chat__52833 .container__11d72 {
+  -webkit-app-region: drag;
+}
+.chat__52833 .container__11d72 .topic__16ae3, .chat__52833 .container__11d72 .title__9e2b0, .chat__52833 .container__11d72 .nicknames__7447d {
+  -webkit-app-region: no-drag;
+}
+
+/* TROPICAL - CHECKBOXES - SLATE THEME - https://github.com/DiscordStyles/Slate/blob/master/LICENSE.md */
+/* epic */
+#app-mount .container__871ba, .input_be50d1,
+#app-mount .container__871ba, .input_be50d1,
+#app-mount .checkboxWrapper-2fDzaA .input-2XRLou,
+#app-mount .checkboxWrapper-2fDzaA .input-3xr72x {
+  margin: 0;
+  opacity: 1;
+  height: 14px !important;
+  width: 14px !important;
+  position: relative;
+  cursor: var(--cursor);
+  -webkit-appearance: checkbox;
+  appearance: checkbox;
+}
+#app-mount  .container__871ba,
+#app-mount .checkboxWrapper-2fDzaA {
+  width: auto;
+  border-radius: 0;
+  background: transparent !important;
+  display: flex;
+  align-items: center;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  cursor: var(--cursor);
+}
+input[type="checkbox"] {
+  accent-color: var(--accent);
+}
+#app-mount .container__871ba .slider__41d94,
+#app-mount .checkboxWrapper-2fDzaA .slider__41d94 {
+  display: none;
+}
+.theme-dark .checkbox-f1HnKB {
+  display: none;
+}
+
+/* VOZER - Compact Powercord - LICENSE - https://github.com/SlippingGitty/Compact-Powercord/blob/main/LICENSE */
+.powercord-product {
+  padding: 9px;
+  margin-bottom: 13px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+}
+.powercord-product-header h4 {
+  font-size: 16px;
+}
+.powercord-product .divider__09722 {
+  display: none;
+}
+.description,
+.powercord-product .metadata,
+.powercord-product-permissions,
+.powercord-product-footer {
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+/* Color Pallete */
+.theme-dark {
+  --background-tertiary: var(--surCordBackground2);
+  --background-secondary: var(--surCordBackground2);
+  --background-secondary-alt: var(--surCordBackground2);
+  --background-primary: var(--surCordBackground);
+  --channeltextarea-background: var(--surCordTextBackground);
+  --background-accent: var(--accent);
+  --background-modifier-hover: var(--surCordHover);
+  --background-modifier-active: rgb(30, 30, 30);
+  --background-modifier-selected: var(--accent-selected);
+  --deprecated-card-bg: #12141f63;
+  --background-floating: rgba(35, 35, 35, 0.771);
+  --deprecated-quickswitcher-input-background: #101320;
+  --elevation-low: none;
+  --toast-background: #000000 !important;
+  --toast-header: #000000 !important;
+  --toast-contents: #000000 !important;
+  --brand-experiment-500: var(--accent-selected);
+  --brand-experiment-560: var(--accent-selected);
+}
+
+.theme-light {
+  --background-tertiary: rgb(225, 225, 225);
+  --background-secondary: rgb(225, 225, 225);
+  --background-secondary-alt: rgb(225, 225, 225);
+  --background-primary: rgb(231, 234, 237);
+  --channeltextarea-background: rgb(213, 213, 213);
+  --background-accent: var(--accent);
+  --background-modifier-hover: rgb(213, 214, 214);
+  --background-modifier-active: rgb(231, 231, 231);
+  --background-modifier-selected: var(--accent-selected);
+  --deprecated-card-bg: #12141f63;
+  --background-floating: rgba(236, 236, 236, 0.771);
+  --deprecated-quickswitcher-input-background: rgba(237, 237, 237);
+  --elevation-low: none;
+  --toast-background: #ffffff !important;
+  --toast-header: #ffffff !important;
+  --toast-contents: #ffffff !important;
+  --brand-experiment-500: var(--accent-selected);
+  --brand-experiment-560: var(--accent-selected);
+
+  .clickable_d23a1a .icon__4cb88,
+  .linkButtonIcon__2f35b {
+    color: var(--accent);
+  }
+}
+
+/* Links */
+:root {
+  --text-link: var(--accent);
+}
+
+/* Scrollbars */
+.scroller__1f96e,
+.auto-2K3UW5,
+.peopleColumn__51df3 {
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+}
+
+.scroller__1f96e,
+.auto-2K3UW5,
+.thin_b1c063,
+.peopleColumn__51df3 {
+  &::-webkit-scrollbar-thumb {
+    background-color: rgb(139, 139, 139);
+  }
+}
+
+/* Explore public servers */
+.theme-dark .pageWrapper_fef757 {
+  background-color: var(--surCordBackground2);
+}
+.theme-light .pageWrapper_fef757 {
+  background-color: rgb(225, 225, 225);
+}
+
+/* Server home page */
+.theme-dark .background_e80d5a {
+  background-color: var(--surCordBackground);
+}
+
+/* Server boost page */
+.theme-dark .perksModal-CLcR1c {
+  background-color: var(--surCordBackground);
+}
+
+/* Forum channel background */
+.theme-dark .container-3wLKDe {
+  background-color: var(--surCordBackground2);
+}
+
+/* Add surCord Branding */
+.info__755e1 > span:first-child::after {
+  content: "\asurCord 10.2023";
+  color: var(--text-muted);
+  white-space: pre;
+  text-transform: none;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+  line-height: 17px !important;
+}

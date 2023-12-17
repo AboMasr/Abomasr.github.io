@@ -1,0 +1,70 @@
+/*
+////////////////////////
+//////Buttons
+////////////////////////
+*/
+
+
+/* Buttons */
+.button__8ec71.buttonSize_b01b54,
+.lookFilled__19298.colorPrimary__6ed40,
+.popoutBannerPremium__942db .pencilContainer_d4ce8d,
+.full-motion .button_ddf91e,
+.lookFilled__19298.colorBrand_b2253e,
+.navButtonActive__735cb {
+    background-color: var(--accent);
+    color: white;
+    border-radius: 50px;
+}
+.popoutBannerPremium__942db .pencilContainer_d4ce8d {
+    border: 1px solid rgb(255, 255, 255); 
+}
+.button__8ec71.buttonSize_b01b54:hover, .actionButton__23182:hover, .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover, .popoutBannerPremium__942db .pencilContainer_d4ce8d:hover {
+    background-color: var(--accent-hover);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.actionButton__23182 {
+    background-color: var(--accent);
+    color: white;
+}
+.lookFilled__19298.colorRed_d6b062 {
+  background: linear-gradient(to bottom, rgb(238, 52, 48) 0%, rgb(238, 52, 48) 50%, rgba(205, 43, 40, 0.999) 100%);
+  border-radius: 50px;
+  border: 1px solid rgb(182, 0, 0);
+}
+.lookOutlined__46d54.colorRed_d6b062  {
+  background: linear-gradient(to bottom, rgb(255, 4, 0) 0%, rgb(255, 4, 0) 50%, rgba(255, 4, 0, 0.999) 100%);
+  border-radius: 50px;
+}
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+    background: linear-gradient(rgb(44, 192, 90), rgb(45, 179, 87)) ;
+    border-radius: 50px;
+}
+.numberBadge__50328, .newBadge__7c6b4 {
+    background: linear-gradient(to bottom, rgb(238, 52, 48) 0%,rgb(238, 52, 48) 50%,rgba(238, 52, 48, 0.999) 100%);
+    font-size: 10px;
+  }
+  .iconBackgroundTierNone__800b6, .iconBackgroundTierOne_df8d8c, .iconBackgroundTierThree__1c0d5, .iconBackgroundTierTwo__1792c {
+      color: var(--accent);
+  }
+
+.theme-light {
+    .lookOutlined-3yKVGo.colorRed-rQXKgM .contents-3ca1mk {
+        color: white;
+    }
+}
+
+/* Sliders */
+.barFill-2Bh7CX {
+    background: var(--brand-experiment);
+}
+
+/* Sidebar "selected" Accents */
+.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
+    background-color: var(--accent) !important;
+}
