@@ -1,0 +1,139 @@
+/*
+////////////////////
+///Sidebars
+////////////////////
+*/
+
+/* Discord Logo */
+.wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c, .wrapper_d281dd:hover .childWrapper__01b9c {
+    background-color: var(--accent);
+}
+
+
+/* Channel Bars */
+.content__1a4fe { 
+    border-left: .5px solid black;
+}
+
+.theme-light {
+.item-3XjbnG .selected-g-kMVV .channelName-3KPsGw, .modeSelected__487d6 .channelName-3KPsGw {
+    color: white;
+}
+.content__1a4fe { 
+    border-left: .5px solid rgba(186, 186, 186, 0.386);
+}
+}
+
+/* User Settings + VC Controls -- Fix by Lucism & Domi */
+.panels__58331 {
+    border-radius: 20px;
+    margin-bottom: 18px;
+    margin-right: 5px;
+    margin-left: 2px;
+    background: rgba(0, 0, 0, 0.436); 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+    border: 1px solid var(--surCordBorder); 
+}
+
+.theme-light {
+    .panels__58331 {
+        background: rgba(226, 221, 225, 0.89);
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.146);
+        border: 1px solid rgba(249, 249, 249, 0.772); 
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        margin-bottom: 18px;
+        margin-right: 5px;
+        margin-left: 2px;
+    }
+}
+
+.interactiveSelected_ec846b {
+    background: var(--accent-selected) !important; 
+    backdrop-filter: blur(20px);
+}
+
+.withTagAsButton_cc125f:hover, .withTagless__98b7d:hover {
+    border-radius: 16px;
+}
+
+.container_d667ff, .container_ca50b9 {
+  border-radius: 20px;
+}
+
+.container_ca50b9, .container_ca50b9 .avatar_f8541f {
+  border-radius: 20px;
+}
+
+.theme-dark .container_ca50b9 {
+  background: rgba(0, 0, 0, 0);
+}
+
+.avatar_f8541f {
+    left: .7px;
+}
+
+/* Channels */
+.modeSelected__487d6 .icon_eff5d4, .modeSelected__487d6:hover .icon_eff5d4, .modeUnread_f74c03 .icon_eff5d4, .modeUnread_f74c03:hover .icon_eff5d4, .mainContent_a0b319 .overflow__87fe8, .mainContent_a0b319 {
+    color: white;
+}
+.iconContainer__3f9b0[aria-label="Text (Age-Restricted)"]>svg {
+    color: #ff5252 !important;
+}
+.icon_eff5d4, .modeSelected__487d6 .wrapper__7bcde, .modeSelected__487d6:hover .wrapper__7bcde {
+    color: var(--accent);
+}
+.modeSelected__487d6 .wrapper__7bcde, .modeSelected__487d6:hover .wrapper__7bcde {
+    background-color: var(--accent) !important;
+}
+.modeUnread_f74c03 .icon_eff5d4  {
+       color: rgb(44, 192, 90); 
+}
+.actionIcon_d679b5 {
+    color: rgb(255, 255, 255);
+}
+.addButtonIcon_b776b3 {
+    border-radius: 50%; 
+    color: rgb(44, 192, 90);
+}
+.unreadRelevant__44f9e, .unreadImportant_c775b3 {
+    background: linear-gradient(rgb(44, 192, 90), rgb(45, 179, 87)) ;
+    width: 8px;
+    border-radius: 5px 5px 5px 5px; 
+}
+
+.theme-light {
+    .mainContent_a0b319 .overflow__87fe8 {
+        color:black;
+    }
+}
+
+/* Members Side Bar */
+.membersWrap__90226 {
+    border-left: .5px solid rgb(0, 0, 0); 
+}
+
+.theme-light {
+    .membersWrap__90226 {
+        border-left: .5px solid rgba(186, 186, 186, 0.386); 
+    }
+}
+
+/* Voice Chat Controls */
+.buttonContents__387ff {
+        font-size: 0px;
+}
+.buttonIcon__80d32.withText__66931 {
+    margin-right: 0px;
+}
+
+/* User Area */
+.avatarWrapper_ba5175 {
+    margin-right: 0px;
+}
+
+/* PC-Spotify */
+.fa, .fab, .fad, .fal, .far, .fas, .powercord-spotify .spotify-buttons button > div {
+    font-family: "Font Awesome 5 Pro" !important;
+}
